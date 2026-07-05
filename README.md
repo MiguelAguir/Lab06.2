@@ -1,29 +1,32 @@
-Woof App
-==================================
+# Lab06.2 — Woof App
 
-The Woof app is a list of dog photos with information about them including their name, age, and favorite activity. This app also uses Material Design to create a beautiful app experience for the user.
+Aplicación Android que muestra un listado de perros con fotos, nombres y edades. Basada en el **Codelab oficial de Android Basics with Compose** (Material Theming).
 
-Introduction
-------------
+## Descripción
 
-This is the starter code for the Woof app project. This project is an opportunity for you to learn Material3 and reinforce the concepts you've learned so far in Android Basics with Compose.
+App "Woof" que demuestra:
+- Listado de perros con imágenes, nombres y edades
+- **Material Theming** con temas claro/oscuro
+- Tipografía personalizada
+- Arquitectura limpia y buenas prácticas de Compose
 
-Pre-requisites
---------------
+## Tecnologías
 
-- Rows/Columns
-- Modifiers
-- Scaffold
-- Adding images
-- Button click handlers
-- Functions
-- Classes
-- Lists
-- App architecture
+- **Kotlin**
+- **Jetpack Compose**
+- **Material3**
+- **Google Codelab** (Android Basics with Compose)
+- **Gradle Kotlin DSL**
 
-Getting Started
----------------
+## Estructura
 
-1. Download the project
-2. Open the project in Android Studio
-3. Run the project
+```
+app/src/main/java/com/example/woof/
+├── data/         → Modelo Dog y datos de ejemplo
+├── ui/theme/     → Tema Material3, colores, formas, tipografía
+└── MainActivity.kt
+```
+
+## Cómo ejecutar
+
+Abrir en Android Studio y ejecutar en un dispositivo/emulador con API 24+.
